@@ -1,8 +1,8 @@
 zuul:
   routes:
     student:
-      path: /student/**
-      url: http://localhost:8090/student
+      path: /users/**
+      url: http://localhost:8090/users
     quarkus:
       path: /hello/**
       url: http://localhost:8085/hello
