@@ -9,11 +9,11 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>br.com.sympla</groupId>
-	<artifactId>enriquecedor-http</artifactId>
+	<groupId>br.com.dynamcidev</groupId>
+	<artifactId>zuulservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>enriquecedor-http</name>
-	<description>Enriquecedor HTTP</description>
+	<name>zuul-service</name>
+	<description>Zuul Service</description>
 
 	<properties>
 		<java.version>11</java.version>

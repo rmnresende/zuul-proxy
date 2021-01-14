@@ -1,4 +1,4 @@
-package br.com.sympla;
+package br.com.dynamicdev;
 
 import io.quarkus.test.junit.NativeImageTest;
 
