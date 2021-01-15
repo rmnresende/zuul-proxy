@@ -26,6 +26,7 @@ public class PreFilter extends ZuulFilter {
   public Object run() {
     RequestContext ctx = RequestContext.getCurrentContext();
     HttpServletRequest request = ctx.getRequest();
+    ctx.addZuulRequestHeader("zull-header", "novo header adicinado");
 
     System.out
         .println("Request Method : " + request.getMethod() + " Request URL : " + request.getRequestURL().toString());
