@@ -6,3 +6,6 @@ zuul:
     quarkus:
       path: /hello/**
       url: http://localhost:8085/hello
+    dotnet:
+      path: /dotnet/**
+      url: http://localhost:5000/dotnet
